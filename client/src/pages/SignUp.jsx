@@ -1,8 +1,8 @@
-import { Alert, Button, Label, TextInput } from 'flowbite-react'
-import React, { useState } from 'react'
-import { Link ,useNavigate} from 'react-router-dom'
+import { Alert, Button, Label, TextInput,Spinner } from 'flowbite-react';
+import React, { useState } from 'react';
+import { Link ,useNavigate} from 'react-router-dom';
 
-export default function Signup() {
+export default function SignUp() {
 
   const [errorMessage,setErrorMessage]=useState(false);
   const [loading,setLoading]=useState(false);
