@@ -23,7 +23,7 @@ export default function Dashboard() {
       </div>
 
       {/* PROFILE....ETC */}
-      <div>
+      <div className='w-full'>
         {tab==='profile' && <DashProfile/>}
       </div>
     </div>
