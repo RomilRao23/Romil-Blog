@@ -23,9 +23,8 @@ export default function Dashboard() {
       </div>
 
       {/* PROFILE....ETC */}
-      <div className='w-full'>
-        {tab==='profile' && <DashProfile/>}
-      </div>
+      {tab==='profile' && <DashProfile/>}
+      
     </div>
   )
 }
