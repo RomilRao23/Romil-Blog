@@ -17,7 +17,7 @@ export default function About() {
             <p>
               On this blog, you'll find weekly articles and tutorials on topics
               such as web development, software engineering, and programming
-              languages. Sahand is always learning and exploring new
+              languages. Romil is always learning and exploring new
               technologies, so be sure to check back often for new content!
             </p>
 
